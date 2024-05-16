@@ -1,0 +1,409 @@
+
+/* --------------- Start-------------- */
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Alegreya Sans";
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----Nave-Bar----- */
+
+.header {
+  background-color: darkgrey;
+  width: 100%;
+  padding: 4px 0;
+  position: fixed;
+}
+
+.logo {
+  margin: 0px 0 0 70px;
+  float: left;
+}
+
+.logo img {
+  width: 55%;
+  cursor: pointer;
+}
+
+.navigation {
+  display: inline-block;
+  margin-left: 25%;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation a {
+  padding: 18px 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.navigation .a-one {
+  color: #e0d2d3;
+  padding: 18px 10;
+}
+
+.navigation a:hover {
+  border-top: 3px #795548 solid;
+  color: #795548;
+}
+
+/* -----Home-Section----- */
+
+.home {
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: math;
+  color: white;
+  height: 100%;
+}
+
+.home-content {
+  padding: 220px 0 0 29%;
+  width: 40%;
+}
+
+.home h1 {
+  font-size: 70px;
+}
+
+.home p {
+  font-size: 20px;
+}
+
+.home .btn1 {
+  background-color: #8e7754;
+  font-family: fantasy;
+  cursor: pointer;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 45px;
+}
+
+.home .btn2 {
+  background-color: transparent;
+  border: 3px solid white;
+  font-family: fantasy;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  height: 45px;
+}
+
+.home-content .btn2:hover {
+  background-color: white;
+  color: black;
+  transition: 0.7s ease;
+}
+
+.home-content .btn1:hover {
+  background-color: white;
+  color: black;
+  transition: 0.7s ease;
+}
+
+.circle {
+  background-color: transparent;
+  border: 3px white solid;
+  margin: 80px 0 0 282px;
+  border-radius: 42%;
+  cursor: pointer;
+  height: 50px;
+  width: 32px;
+}
+
+/* -----About-Section----- */
+
+.about {
+  display: inline-block;
+  padding: 90px 55px 60px;
+}
+
+.about .about-img {
+  width: 50%;
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.about .about-img img {
+  width: 100%;
+}
+
+.about .container {
+  height: 93%;
+}
+
+.about .container .about-title {
+  padding: 75px 0 0 775px;
+  font-size: 15px;
+  height: 90%;
+}
+
+.about .container .about-title h2 {
+  color: #303030;
+  font-size: 32px;
+  margin: 0 0 25px;
+}
+
+.about .container .about-title p {
+  color: #686868;
+  font-size: 18px;
+}
+
+.about .container .about-title ul {
+  padding-left: 0px;
+}
+
+.about .container .about-title ul li {
+  margin: 0px 0px 2px;
+  padding: 15px 0px 15px 0px;
+  list-style: none;
+}
+
+.about .container .about-title ul li .icon {
+  vertical-align: middle;
+  margin-right: 2px;
+  height: 40px;
+  width: 40px;
+}
+
+.about .container .about-title ul li .parent-img {
+  border: 1px rgba(0, 0, 0, 0.15) solid;
+  background-color: transparent;
+  padding: 15px 0px 15px 0px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.about .container .about-title li .li-title {
+  color: #686868;
+  font-size: 20px;
+}
+
+/* -----Our Offer-Section----- */
+
+.our-offer .container {
+  background-color: #f8f8f8;
+}
+.our-offer .our-title {
+  margin: 0 49px;
+  height: 90vh;
+  float: left;
+  width: 45%;
+}
+
+.our-offer .our-title h2 {
+  padding-top: 177px;
+  color: #303030;
+  font-size: 32px;
+  margin: 0 0 25px;
+}
+.our-offer .our-title .p1 {
+  color: #686868;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.our-offer .our-title .p2 {
+  color: #686868;
+  font-size: 20px;
+}
+
+.our-offer .our-img img {
+  margin-top: 50px;
+  height: 80%;
+  width: 45%;
+}
+
+/* -----Our-Baking-Section----- */
+
+.Our-Baking {
+  height: 100vh;
+}
+
+.Our-Baking .title {
+  text-align: center;
+}
+
+.Our-Baking .title h3 {
+  margin-top: 80px;
+  color: #303030;
+  font-size: 30;
+}
+
+.Our-Baking .title p {
+  color: #888888;
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+
+.Our-Baking .container-Baking .item {
+  text-align: center;
+  width: 33.3333%;
+  float: left;
+}
+
+.Our-Baking .container-Baking .item img {
+  width: 90%;
+}
+
+.Our-Baking .container-Baking .item h3 {
+  font-size: 25px;
+  color: #303030;
+}
+
+.Our-Baking .container-Baking .item p {
+  font-size: 19px;
+  padding: 0 50px;
+  color: #686868;
+}
+
+/* -----Contact-Section----- */
+
+.our-offer .container .our-title ul {
+  padding-left: 0px;
+}
+
+.our-offer .container .our-title ul li {
+  padding: 15px 0px 15px 0px;
+  margin: 0px 0px 2px;
+  list-style: none;
+}
+
+.our-offer .container .our-title ul li .icon {
+  vertical-align: middle;
+  padding-left: 5px;
+  margin-right: 2px;
+  height: 40px;
+  width: 40px;
+}
+
+.our-offer .container .our-title ul li .parent-img {
+  border: 1px rgba(0, 0, 0, 0.15) solid;
+  background-color: transparent;
+  padding: 15px 0px 15px 0px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.our-offer .container .our-title li .li-title {
+  color: #686868;
+  font-size: 20px;
+}
+
+.our-offer .container .our-map {
+  display: inline-block;
+  padding-top: 126px;
+  width: 45%;
+}
+
+/* -----footer_1-Section----- */
+
+.footer-1 {
+  background-color: #403d38;
+  width: 100%;
+  height: 80vh;
+}
+
+.footer-1 .item {
+  padding-left: 10px;
+  width: 24%;
+  height: 72%;
+  float: left;
+}
+
+.footer-1 .footer-container {
+  padding: 90px 44px 0 35px;
+}
+
+.footer-1 .footer-container h4 {
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.footer-1 .footer-container p {
+  color: #969696;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.footer-1 .footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-1 .footer-container ul li {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 18px;
+}
+
+.footer-1 .footer-container ul li .icon {
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+}
+
+.footer-1 .footer-container ul li .icon2 {
+  vertical-align: middle;
+  height: 34px;
+  width: 34px;
+}
+
+.footer-1 .footer-container ul li .li-title {
+  text-decoration: none;
+  vertical-align: bottom;
+  color: #969696;
+  font-size: 20px;
+}
+
+/* -----footer_2-Section----- */
+
+.footer-2 {
+  background-color: #353330;
+  padding: 40px 0 50px;
+  text-align: center;
+}
+
+.footer-2 .parent .child-1 {
+  margin: 10px 0 25px;
+  cursor: pointer;
+}
+
+.footer-2 .parent .child-2 {
+  margin-top: 5px;
+  padding-top: 0px;
+  font-size: 17px;
+}
+
+.footer-2 .parent .child-2 p {
+  font-size: 22px;
+}
+
+.footer-2 .parent .child-2 p span {
+  text-shadow: 0 0 10px rgb(190, 14, 111);
+  color: aliceblue;
+}
+
+.footer-2 .parent .child-3 img {
+  cursor: pointer;
+  width: 4%;
+}
+/* --------------- The End -------------- */
+
